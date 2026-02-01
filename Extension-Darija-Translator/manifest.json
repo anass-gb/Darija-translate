@@ -1,0 +1,22 @@
+{
+  "name": "Darija Translator",
+  "description": "Translate English to Moroccan Darija using Gemini",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": [
+    "sidePanel"
+  ],
+
+  "host_permissions": [
+    "http://localhost:8080/*"
+  ],
+
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+
+  "action": {
+    "default_title": "Darija Translator"
+  }
+}

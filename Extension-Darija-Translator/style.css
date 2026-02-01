@@ -1,0 +1,98 @@
+/* =========================
+   GLOBAL (Optimisé pour Side Panel)
+   ========================= */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: radial-gradient(circle at top, #020617, #0f172a);
+    color: #e5e7eb;
+    padding: 10px; /* Réduit pour gagner de la place */
+    margin: 0;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* Conteneur pour éviter que les éléments touchent les bords */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* =========================
+   TITLE & ICONS
+   ========================= */
+h2 {
+    text-align: center;
+    margin: 10px 0 15px 0;
+    font-size: 18px; /* Réduit pour le panneau latéral */
+    letter-spacing: 0.5px;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   TEXTAREA
+   ========================= */
+textarea {
+    width: 100%;
+    height: 100px; /* Un peu plus court */
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 13px;
+    background-color: #020617;
+    color: #f1f5f9;
+    outline: none;
+    resize: none;
+    box-sizing: border-box; /* IMPORTANT : pour que le padding ne dépasse pas */
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+    border-color: #22c55e;
+}
+
+/* =========================
+   BUTTON
+   ========================= */
+button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #022c22;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* =========================
+   RESULT BOX
+   ========================= */
+#result {
+    margin-top: 15px;
+    padding: 12px;
+    background: linear-gradient(180deg, #1e293b, #141b2e);
+    border-radius: 8px;
+    font-size: 13px;
+    color: #cbd5f5;
+    word-wrap: break-word; /* Force le retour à la ligne du texte long */
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
