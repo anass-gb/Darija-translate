@@ -6,7 +6,7 @@ Ce projet implémente un service web RESTful intelligent pour la traduction de l
 
 ## 🚀 Fonctionnalités
 * **API REST (Spring Boot)** : Point de terminaison sécurisé `/translate`.
-* **Intelligence Artificielle** : Intégration de Gemini 1.5 Flash pour des traductions naturelles.
+* **Intelligence Artificielle** : Intégration de Gemini 2.5 Flash pour des traductions naturelles.
 * **Sécurité Jakarta** : Authentification Basic (Login/Password).
 * **Client PHP** : Interface web simple pour interagir avec le service.
 * **Extension Chrome** : Panneau latéral (Side Panel) pour traduire en naviguant.
@@ -15,7 +15,7 @@ Ce projet implémente un service web RESTful intelligent pour la traduction de l
 * **Backend** : Java 17, Spring Boot, Spring Security, Maven.
 * **Frontend** : PHP, HTML5, CSS3 (Dark Mode), JavaScript.
 * **Navigateur** : Manifest V3 (Chrome Extension API).
-* **OS de développement** : Kubuntu.
+* **OS de développement** : Linux - Kubuntu.
 
 ## 📸 Tests & Captures d'écran
 
@@ -33,4 +33,4 @@ L'interface intégrée au navigateur :
 1. Clonez le dépôt.
 2. Ajoutez votre clé API Gemini dans `src/main/resources/application.properties` :
    ```properties
-   gemini.api.key=AIzaSyCCm5Zc74EI2u5BAciEFDM-3L6JMkzIPZU
+   gemini.api.key=
