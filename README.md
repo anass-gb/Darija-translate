@@ -12,7 +12,7 @@ Une application de traduction intelligente utilisant l'IA pour convertir du text
 ## 📸 Aperçu (Screenshots)
 | Test de l'API (Curl) | Test Postman |
 | :---: | :---: |
-| ![Curl Test](screenshots/Curl_test.png) | ![Postman Test](screenshots/Postman_test.png) |
+| ![Curl Test](assets/screenshots/Curl_test.png) | ![Postman Test](assets/screenshots/Postman_test.png) |
 
 ## 🛠️ Technologies Utilisées
 * **Backend** : Java Spring Boot, Spring Security, Maven.
